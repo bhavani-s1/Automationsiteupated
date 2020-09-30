@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="3" passed="3">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="28635" started-at="2020-09-30T11:08:30 IST" finished-at="2020-09-30T11:08:59 IST">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="28635" started-at="2020-09-30T11:08:30 IST" finished-at="2020-09-30T11:08:59 IST">
+      <class name="com.atmecs.dataprovider.demo.FormTest">
+        <test-method status="PASS" signature="login(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.atmecs.dataprovider.demo.FormTest@7d0587f1]" name="login" duration-ms="10288" started-at="2020-09-30T11:08:31 IST" data-provider="getdata" finished-at="2020-09-30T11:08:42 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Kore]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[bhavani]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Bangalore]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[k.bhavani6@gmail.com]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- login -->
+        <test-method status="PASS" signature="login(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.atmecs.dataprovider.demo.FormTest@7d0587f1]" name="login" duration-ms="9776" started-at="2020-09-30T11:08:42 IST" data-provider="getdata" finished-at="2020-09-30T11:08:52 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Manvit]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Reddy]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[HYD]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[manvit@gmail.com]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- login -->
+        <test-method status="PASS" signature="login(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.atmecs.dataprovider.demo.FormTest@7d0587f1]" name="login" duration-ms="7560" started-at="2020-09-30T11:08:52 IST" data-provider="getdata" finished-at="2020-09-30T11:08:59 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Subbu]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[NV]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Bangalore]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[subbu123@gmail.com]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- login -->
+      </class> <!-- com.atmecs.dataprovider.demo.FormTest -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
