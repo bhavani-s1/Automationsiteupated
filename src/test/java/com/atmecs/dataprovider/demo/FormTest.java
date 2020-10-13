@@ -82,7 +82,7 @@ public class FormTest {
 	
 	@Test(dataProvider="getdata")
 	
-	public void login(String FirstName,String LastName,String Address, String Email) {
+	public void login(String FirstName,String LastName,String Address, String Email)
 	
 	 {
 		
@@ -106,7 +106,8 @@ public class FormTest {
 		
 		driver.findElement(By.xpath("//input[@type='email']")).sendKeys(Email);
 		
-		//driver.findElement(By.xpath("//input[@ng-model='Phone']")).sendKeys(phno);
+		driver.manage().timeouts().implicitlyWait(20, TimeUnit.SECONDS);
+		//driver.findElement(By.xpath("//input[@ng-model='Phone']]")).sendKeys(phno);
 		
 		driver.findElement(By.name("radiooptions")).click(); //radio button
 
@@ -114,4 +115,4 @@ public class FormTest {
 
 	 }	
 }
-	}
+	

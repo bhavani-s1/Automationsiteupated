@@ -2,90 +2,72 @@
 <testng-results skipped="0" failed="0" ignored="0" total="3" passed="3">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="28635" started-at="2020-09-30T11:08:30 IST" finished-at="2020-09-30T11:08:59 IST">
+  <suite name="Default suite" duration-ms="22086" started-at="2020-10-01T21:47:13 IST" finished-at="2020-10-01T21:47:35 IST">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="28635" started-at="2020-09-30T11:08:30 IST" finished-at="2020-09-30T11:08:59 IST">
-      <class name="com.atmecs.dataprovider.demo.FormTest">
-        <test-method status="PASS" signature="login(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.atmecs.dataprovider.demo.FormTest@7d0587f1]" name="login" duration-ms="10288" started-at="2020-09-30T11:08:31 IST" data-provider="getdata" finished-at="2020-09-30T11:08:42 IST">
+    <test name="Default test" duration-ms="22086" started-at="2020-10-01T21:47:13 IST" finished-at="2020-10-01T21:47:35 IST">
+      <class name="com.atmecs.dataprovider.demo.TestDataprovider">
+        <test-method status="PASS" signature="setup()[pri:0, instance:com.atmecs.dataprovider.demo.TestDataprovider@2a17b7b6]" name="setup" is-config="true" duration-ms="7186" started-at="2020-10-01T21:47:13 IST" finished-at="2020-10-01T21:47:20 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="Fblogin(java.lang.String, java.lang.String)[pri:0, instance:com.atmecs.dataprovider.demo.TestDataprovider@2a17b7b6]" name="Fblogin" duration-ms="405" started-at="2020-10-01T21:47:20 IST" data-provider="testdata" finished-at="2020-10-01T21:47:21 IST">
           <params>
             <param index="0">
-              <value>
-                <![CDATA[Kore]]>
-              </value>
-            </param>
-            <param index="1">
               <value>
                 <![CDATA[bhavani]]>
               </value>
             </param>
-            <param index="2">
+            <param index="1">
               <value>
-                <![CDATA[Bangalore]]>
-              </value>
-            </param>
-            <param index="3">
-              <value>
-                <![CDATA[k.bhavani6@gmail.com]]>
+                <![CDATA[pwd1]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- login -->
-        <test-method status="PASS" signature="login(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.atmecs.dataprovider.demo.FormTest@7d0587f1]" name="login" duration-ms="9776" started-at="2020-09-30T11:08:42 IST" data-provider="getdata" finished-at="2020-09-30T11:08:52 IST">
+        </test-method> <!-- Fblogin -->
+        <test-method status="PASS" signature="setup()[pri:0, instance:com.atmecs.dataprovider.demo.TestDataprovider@2a17b7b6]" name="setup" is-config="true" duration-ms="6649" started-at="2020-10-01T21:47:21 IST" finished-at="2020-10-01T21:47:27 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="Fblogin(java.lang.String, java.lang.String)[pri:0, instance:com.atmecs.dataprovider.demo.TestDataprovider@2a17b7b6]" name="Fblogin" duration-ms="419" started-at="2020-10-01T21:47:27 IST" data-provider="testdata" finished-at="2020-10-01T21:47:28 IST">
           <params>
             <param index="0">
               <value>
-                <![CDATA[Manvit]]>
+                <![CDATA[user2]]>
               </value>
             </param>
             <param index="1">
               <value>
-                <![CDATA[Reddy]]>
-              </value>
-            </param>
-            <param index="2">
-              <value>
-                <![CDATA[HYD]]>
-              </value>
-            </param>
-            <param index="3">
-              <value>
-                <![CDATA[manvit@gmail.com]]>
+                <![CDATA[pwd2]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- login -->
-        <test-method status="PASS" signature="login(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.atmecs.dataprovider.demo.FormTest@7d0587f1]" name="login" duration-ms="7560" started-at="2020-09-30T11:08:52 IST" data-provider="getdata" finished-at="2020-09-30T11:08:59 IST">
+        </test-method> <!-- Fblogin -->
+        <test-method status="PASS" signature="setup()[pri:0, instance:com.atmecs.dataprovider.demo.TestDataprovider@2a17b7b6]" name="setup" is-config="true" duration-ms="6772" started-at="2020-10-01T21:47:28 IST" finished-at="2020-10-01T21:47:34 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="Fblogin(java.lang.String, java.lang.String)[pri:0, instance:com.atmecs.dataprovider.demo.TestDataprovider@2a17b7b6]" name="Fblogin" duration-ms="580" started-at="2020-10-01T21:47:34 IST" data-provider="testdata" finished-at="2020-10-01T21:47:35 IST">
           <params>
             <param index="0">
               <value>
-                <![CDATA[Subbu]]>
+                <![CDATA[user3]]>
               </value>
             </param>
             <param index="1">
               <value>
-                <![CDATA[NV]]>
-              </value>
-            </param>
-            <param index="2">
-              <value>
-                <![CDATA[Bangalore]]>
-              </value>
-            </param>
-            <param index="3">
-              <value>
-                <![CDATA[subbu123@gmail.com]]>
+                <![CDATA[pwd3]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- login -->
-      </class> <!-- com.atmecs.dataprovider.demo.FormTest -->
+        </test-method> <!-- Fblogin -->
+      </class> <!-- com.atmecs.dataprovider.demo.TestDataprovider -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>

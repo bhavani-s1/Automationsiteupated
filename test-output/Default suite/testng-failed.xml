@@ -5,7 +5,7 @@
     <classes>
       <class name="com.atmecs.dataprovider.demo.FormTest">
         <methods>
-          <include name="login" invocation-numbers="0 1 2"/>
+          <include name="login"/>
         </methods>
       </class> <!-- com.atmecs.dataprovider.demo.FormTest -->
     </classes>
